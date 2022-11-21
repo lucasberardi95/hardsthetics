@@ -399,6 +399,9 @@ footer .end a{
     
 }
 
+/* --------------------------------------------- MEDIA QUERYS ------------------------------------------------- */
+
+
 @media screen and (max-width:900px){
     .grid-section-nosotros{
         grid-template-columns: 1fr 1fr;
