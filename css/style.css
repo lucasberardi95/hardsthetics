@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /* SIEMPRE COLOCAR EL RESET AL PRINCIPIO DE UN CSS */
+
+body{
+    font-family: 'Caesar Dressing', cursive;
+
+}
+
+/** ------------------------------------------- INDEX -------------------------------------------------------- **/
+
+
+/* -------------------------------------------- HEADER -------------------------------------------------------- */
+
+header{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,0.5270483193277311) 50%, rgba(98,203,240,1) 100%);
+    background-size: auto;
+    top: 0;
+    width: 100%;
+    height: 163px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky; */
+}
+
+header nav div ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav div ul li{
+    margin: 15px;
+} 
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* ---------------------------------------------- MAIN ------------------------------------------------------- */
+
+
+.hero{
+    background-image: url(../img/fondo-arnold22.jpg);
+    width: 100%;
+    height: 115vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Caesar Dressing', cursive;
+
+    font-weight: 500;
+    font-style: italic;
+    /* text-align: center; */
+}
+
+/* .hero h1 span{
+    color: rgb(25, 23, 126);
+} */
+
+/* .prueba-flex{
+    display: flex;
+    align-items: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.prueba-flex .div1{
+    padding: 35px;
+}
+
+.prueba-flex .div1 h2{
+    font-size: 37.5px;
+    text-align: center;
+
+    
+}
+
+.prueba-flex .div2{
+    display: flex;
+    flex-direction: row;
+}
+.prueba-flex img{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+
+} */
+
+/* .productos{
+    display: flex;
+} */
+
+.productos h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,0.5270483193277311) 50%, rgba(98,203,240,1) 100%);
+    padding: 50px 10px 50px 10px;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.productos .productos-contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0 40px 0;
+}
+
+.productos .productos-contenedor div{
+    width: 350px;
+    height: 450px;
+    border: 1px grey;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+    -webkit-box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+    transition-duration: 1s;
+}
+
+.productos .productos-contenedor div:hover{
+    transform: scale(1.1) ;
+}
+
+.productos div img{
+    width: 100%;
+    height: 75%;
+}
+
+.productos div h3{
+    margin-bottom: 15px;
+}
+
+.productos div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: darkslategray;
+    padding: 5px;
+    /* border-radius: ; */
+}
+
+.take-over h2{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,0.5270483193277311) 50%, rgba(98,203,240,1) 100%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 50px 10px 50px 10px;
+    font-size: 35px;
+}
+
+.enlaces{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+}
+
+.enlaces div{
+    width: 600px;
+    height: 500px;
+    margin: 5px;
+    position: relative;
+}
+
+.enlaces div img{
+    width: 100%;
+    height: 100%;
+}
+
+.enlaces div h3{
+    position: absolute;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    right: 60%;
+    bottom: 50%;
+    left: 40%;
+}
+
+/* .whatsapp{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+}
+
+.whatsapp img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+    -webkit-box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+} */
+
+
+/* ---------------------------------------------- FOOTER ------------------------------------------------------ */
+
+footer{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,0.5270483193277311) 50%, rgba(98,203,240,1) 100%);
+}
+
+footer .logo-y-redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .redes img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+footer .redes a{
+    text-decoration: none;
+}
+
+footer .end{
+    text-align: center;
+}
+
+footer .end a{
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* --------------------------------------------- MEDIA QUERYS ------------------------------------------------- */
+
+@media screen and (max-width:1250px){
+    .productos .productos-contenedor div{
+        width: 250px;
+        height: 350px;}
+    .enlaces div{
+        width: 450px;
+        height: 350px;}
+}
+
+@media screen and (max-width:920px){
+    .enlaces div{
+        width: 350px;
+        height: 250px;}
+}
+
+
+@media screen and (max-width:880px){
+    header{
+        flex-direction: column;
+        height: auto;
+        }
+    }
+
+@media screen and (max-width:815px){
+    .producto-3{
+        display: none;}
+}
+
+@media screen and (max-width:700px){
+    footer .logo-y-redes{
+        flex-direction: column;}
+}
+
+@media screen and (max-width:500px){
+    .hero h1{font-size: 40px;}
+    .producto-3{display: block;}
+
+}
+
+@media screen and (max-width:505px){
+    .take-over h2{font-size: 30px;}
+}
+
+
+@media screen and (max-width:475px){
+    header nav div ul{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:445px){
+    .productos h2{
+        font-size: 25px;
+    }
+    .take-over h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .hero h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:360px){
+    footer .end a{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width:285px){
+    footer .redes img{
+        margin: 10px;
+    }
+}
+
+
+/** ------------------------------------------- NOSOTROS ----------------------------------------------------- **/
+
+/* ---------------------------------------------- MAIN ------------------------------------------------------- */
+
+.grid-section-nosotros{
+    /* margin: 5px; */
+    /* padding: 5px; */
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-auto-rows: 450px;
+    text-align: center;
+}
+
+.grid-section-nosotros div img{
+    width: 100%;
+    height: 100%;
+}
+
+.como-empezo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.como-empezo-img{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.mision-img{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.mision{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.take-over-nosotros{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.take-over-img{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.nosotros-unite-form{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media screen and (max-width:900px){
+    .grid-section-nosotros{
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 350px;
+    }
+    .como-empezo{
+        grid-column: 1/2;
+    }
+    .como-empezo-img{
+        grid-column: 2/3;
+    }
+    .mision-img{
+        grid-column: 1/2;
+    }
+    .mision{
+        grid-column: 2/3;
+    }
+    .take-over-nosotros{
+        grid-column: 1/2;
+    }
+    .take-over-img{
+        grid-column: 2/3;
+    }
+}    
+
+@media screen and (max-width:700px){
+    .grid-section-nosotros{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (6,300px);
+    }
+    .como-empezo{
+        grid-column: 1/3;
+    }
+    .como-empezo-img{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .mision-img{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .mision{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .take-over-nosotros{
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+    .take-over-img{
+        grid-column: 1/3;
+        grid-row:  6/7;
+    }
+}    
+
+@media screen and (max-width:350px){
+    .header-nosotros{
+        margin-bottom: 50px;
+    }
+    .como-empezo-img{
+        margin-top: 50px;
+    }
+}
+
+/** ------------------------------------------- TRAINING ----------------------------------------------------- **/
+
+/* ---------------------------------------------- MAIN ------------------------------------------------------- */
+
+.training h2{
+    text-align: center;
+    color: #ffffff;
+    background-image: url(../img/banner-barras1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 100px 10px 100px 10px;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.training .mancuernas-banner{
+    background-image: url(../img/banner-mancuernas1.jpg);
+}
+
+.training .strength-banner{
+    background-image: url(../img/banner-strength1.jpg);
+}
+.training .cardio-banner{
+    background-image: url(../img/banner-cardio1.jpg);
+}
+
+.training .productos-training{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0 40px 0;
+}
+
+.training .productos-training div{
+    width: 350px;
+    height: 450px;
+    border: 1px grey;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+    -webkit-box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
+    transition-duration: 1s;
+}
+
+.training .productos-training div:hover{
+    transform: scale(1.1) ;
+}
+
+.training div img{
+    width: 100%;
+    height: 75%;
+}
+
+.training div h3{
+    margin-bottom: 15px;
+}
+
+.training div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: darkslategray;
+    padding: 5px;
+    /* border-radius: ; */
+}
+
+
+/** ------------------------------------------- CONTACTO ----------------------------------------------------- **/
+
+
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+
+
