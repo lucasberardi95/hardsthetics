@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/style.css">
     <title>HARDSTHETICS</title>
 </head>
+
 <body>
-    <header><!-- el ecabezado-->
-        <a href="">
+    <header>
+        <!-- el ecabezado-->
+        <a href="../index.html">
             <img class="logo" src="../img/hardsthetics-logo-escudo-y-nombre.png" alt="Logo">
         </a>
-        <nav><!--representa la barra de navegacion en el header, enlaces para otros links, botonera, etc (puede ir tanto dentro como fuera del header)-->
+        <nav>
+            <!--representa la barra de navegacion en el header, enlaces para otros links, botonera, etc (puede ir tanto dentro como fuera del header)-->
             <div>
                 <ul>
-                    <li><a href="../index.html">Home</a></li> 
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="../pages/Nosotros.html">Nosotros</a></li>
                     <li><a href="../pages/Training.html">Training</a></li>
                     <li><a href="../pages/Indumentaria.html">Indumentaria</a></li>
@@ -23,12 +30,56 @@
                     <!-- <li><a href="#pie">Pie de pagina</a></li> -->
                 </ul>
             </div>
-        </nav>        
+        </nav>
     </header>
     <main>
-        <div>
+        <section class="contacto">
+            <h2 class="banner-contacto">Visite o contactenos!</h2>
+            <div>
+                <div class="ubicacion">
+                    <h2>Donde ubicarnos?</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.822464767908!2d-118.47893609138214!3d33.99481375262633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bacf4578353b%3A0x475106ed00e39b87!2sGold&#39;s%20Gym%20Venice!5e0!3m2!1ses!2sar!4v1667195531087!5m2!1ses!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <h2>Info de Contacto</h2>
+                    <h3>Email: asdf@1234.com</h3>
+                    <h3>Telefono: 123456789</h3>
+                    <h2>Horarios de atencion</h2>
+                    <h3>Tiendas de ropa: Todos los días de 8 a 22hs</h3>
+                    <h3>Gimnasio: Todos los días 24hs</h3>
+                </div>
+            </div>
+        </section>
+        <section class="contacto-form">
+            <h2>DEJANOS TU CONSULTA!</h2>
+            <!-- FORM DE BOOTSTRAP -->
+            <div class="m-3 p-1 row col-9">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Name:</label>
+                <div class="col-sm-6 ">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg"
+                    placeholder="Name">
+                </div>
+            </div>
+            <div class="m-3 p-1 row col-9">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email:</label>
+                <div class="col-sm-6">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg"
+                    placeholder="Email">
+                </div>
+            </div>
+            <div class=" m-3 p-1 row col-9 form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+            </div>
+            <div class="m-3col-12 d-flex justify-content-center">
+                <button type="submit" class="btn btn-dark">submit</button>
+            </div>
+        </section>
+                    <!-- <div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/KHjRbEaRaLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.822464767908!2d-118.47893609138214!3d33.99481375262633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bacf4578353b%3A0x475106ed00e39b87!2sGold&#39;s%20Gym%20Venice!5e0!3m2!1ses!2sar!4v1667195531087!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="icons"">
             <p>SIGN UP TO STAY IN THE LOOP WITH THE EXCLUSIVE INFO, DISCOUNTS AND FUTURE EVENTS!</p>
@@ -56,7 +107,7 @@
                     <input type="submit" value="SIGN-UP NOW!">
                 </div>
             </div>
-            </form>
+            </form> -->
     </main>
     <footer id="pie">
         <div class="logo-y-redes">
@@ -80,5 +131,10 @@
             <a href="">TERMS</a>
         </div>
     </footer>
+    <!-- JS BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
