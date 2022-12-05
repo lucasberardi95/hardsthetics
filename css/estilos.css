@@ -1,0 +1,592 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* SIEMPRE COLOCAR EL RESET AL PRINCIPIO DE UN CSS */
+body {
+  font-family: 'Caesar Dressing', cursive; }
+
+/*ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite*/
+h1 {
+  font-size: 30px; }
+
+/*ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite*/
+h1 {
+  font-size: 30px; }
+
+header {
+  background: white;
+  background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%);
+  background-size: auto;
+  top: 0;
+  width: 100%;
+  height: 163px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header nav ul {
+    display: flex;
+    list-style: none; }
+    header nav ul li {
+      margin: 15px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: black;
+        transition-duration: 1s; }
+        header nav ul li a:hover {
+          color: rgba(0, 0, 0, 0.39); }
+
+/*ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite*/
+h1 {
+  font-size: 30px; }
+
+.hero {
+  background-image: url(../img/fondo-arnold22.jpg);
+  width: 100%;
+  height: 115vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+  .hero h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Caesar Dressing', cursive;
+    font-weight: 500; }
+
+.productos h2 {
+  text-align: center;
+  color: black;
+  background: white;
+  background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%);
+  padding: 50px 10px 50px 10px;
+  font-size: 35px;
+  margin-bottom: 40px; }
+
+.productos .productos-contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0 40px 0; }
+  .productos .productos-contenedor div {
+    width: 350px;
+    height: 450px;
+    border: 1px grey;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 19px 5px #999999;
+    -webkit-box-shadow: 0px 3px 19px 5px #999999;
+    -moz-box-shadow: 0px 3px 19px 5px #999999;
+    transition-duration: 1s; }
+    .productos .productos-contenedor div:hover {
+      transform: scale(1.1); }
+    .productos .productos-contenedor div img {
+      width: 100%;
+      height: 75%; }
+    .productos .productos-contenedor div h3 {
+      margin-bottom: 15px; }
+    .productos .productos-contenedor div a {
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      padding: 5px;
+      transition: 1s; }
+      .productos .productos-contenedor div a:hover {
+        background-color: rgba(0, 0, 0, 0.39); }
+
+.take-over h2 {
+  background: white;
+  background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%);
+  text-align: center;
+  color: black;
+  padding: 50px 10px 50px 10px;
+  font-size: 35px; }
+
+.enlaces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0 40px 0; }
+  .enlaces div {
+    width: 600px;
+    height: 500px;
+    margin: 5px;
+    position: relative; }
+    .enlaces div a img {
+      width: 100%;
+      height: 100%; }
+    .enlaces div a h3 {
+      position: absolute;
+      font-size: 25px;
+      color: white;
+      top: 60%;
+      right: 50%;
+      bottom: 50%;
+      left: 40%; }
+
+.enlaces div .h3-indumentaria {
+  top: 60%;
+  bottom: 50%;
+  left: 35%; }
+
+.grid-section-nosotros {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-auto-rows: 450px;
+  text-align: center; }
+  .grid-section-nosotros div img {
+    width: 100%;
+    height: 100%; }
+  .grid-section-nosotros .como-empezo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .grid-section-nosotros .como-empezo-img {
+    grid-column: 2/4;
+    grid-row: 1/2; }
+  .grid-section-nosotros .mision-img {
+    grid-column: 1/3;
+    grid-row: 2/3; }
+  .grid-section-nosotros .mision {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .grid-section-nosotros .take-over-img {
+    grid-column: 2/4;
+    grid-row: 3/4; }
+  .grid-section-nosotros .take-over-nosotros {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.nosotros-form .nosotros-form-div {
+  grid-column: 1/4;
+  grid-row: 4/5;
+  border: color black solid;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .nosotros-form .nosotros-form-div h2 {
+    text-align: center; }
+  .nosotros-form .nosotros-form-div p {
+    text-align: center; }
+
+.training h2 {
+  text-align: center;
+  color: #ffffff;
+  background-image: url(../img/banner-barras1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  padding: 100px 10px 100px 10px;
+  font-size: 35px;
+  margin-bottom: 40px; }
+
+.training .productos-training {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0 40px 0; }
+  .training .productos-training div {
+    width: 350px;
+    height: 450px;
+    border: 1px grey;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 19px 5px #999999;
+    -webkit-box-shadow: 0px 3px 19px 5px #999999;
+    -moz-box-shadow: 0px 3px 19px 5px #999999;
+    transition-duration: 1s; }
+    .training .productos-training div:hover {
+      transform: scale(1.1); }
+    .training .productos-training div img {
+      width: 100%;
+      height: 75%; }
+    .training .productos-training div h3 {
+      margin-bottom: 15px; }
+    .training .productos-training div a {
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      padding: 5px;
+      transition: 1s; }
+      .training .productos-training div a:hover {
+        background-color: rgba(0, 0, 0, 0.39); }
+
+.training .mancuernas-banner {
+  background-image: url(../img/banner-mancuernas1.jpg); }
+
+.training .strength-banner {
+  background-image: url(../img/banner-strength1.jpg); }
+
+.training .cardio-banner {
+  background-image: url(../img/banner-cardio1.jpg); }
+
+section .banner-men-women {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100vh; }
+  section .banner-men-women div {
+    margin: 5px;
+    box-shadow: 0px 3px 19px 5px #999999;
+    -webkit-box-shadow: 0px 3px 19px 5px #999999;
+    -moz-box-shadow: 0px 3px 19px 5px #999999; }
+    section .banner-men-women div h2 {
+      color: white;
+      font-size: 35px; }
+  section .banner-men-women .banner-men {
+    background-image: url(../img/indumentaria-men.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  section .banner-men-women .banner-women {
+    background-image: url(../img/indumentaria-women.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+
+.nuevo h2 {
+  text-align: center;
+  color: #000000;
+  background: white;
+  background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%);
+  padding: 50px 10px 50px 10px;
+  font-size: 35px;
+  margin-bottom: 40px; }
+
+.nuevo .productos-nuevos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0 40px 0; }
+  .nuevo .productos-nuevos div {
+    width: 250px;
+    height: 350px;
+    border: 1px grey;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 19px 5px #999999;
+    -webkit-box-shadow: 0px 3px 19px 5px #999999;
+    -moz-box-shadow: 0px 3px 19px 5px #999999;
+    transition-duration: 1s; }
+    .nuevo .productos-nuevos div:hover {
+      transform: scale(1.1); }
+
+.nuevo div div img {
+  width: 100%;
+  height: 75%; }
+
+.nuevo div div h3 {
+  margin-bottom: 15px; }
+
+.nuevo div div a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  /* border-radius: ; */
+  transition: 1s; }
+  .nuevo div div a:hover {
+    background-color: rgba(0, 0, 0, 0.39); }
+
+.indumentaria-men-women h2 {
+  text-align: center;
+  color: black;
+  background: white;
+  background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%);
+  padding: 50px 10px 50px 10px;
+  font-size: 35px;
+  margin-bottom: 40px; }
+
+.indumentaria-men-women .men {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0 40px 0; }
+  .indumentaria-men-women .men div {
+    width: 350px;
+    height: 450px;
+    border: 1px grey;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 19px 5px #999999;
+    -webkit-box-shadow: 0px 3px 19px 5px #999999;
+    -moz-box-shadow: 0px 3px 19px 5px #999999;
+    transition-duration: 1s; }
+    .indumentaria-men-women .men div:hover {
+      transform: scale(1.1); }
+
+.indumentaria-men-women div div img {
+  width: 100%;
+  height: 75%; }
+
+.indumentaria-men-women div div h3 {
+  margin-bottom: 15px; }
+
+.indumentaria-men-women div div a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  transition: 1s; }
+  .indumentaria-men-women div div a:hover {
+    background-color: rgba(0, 0, 0, 0.39); }
+
+.indumentaria-men-women .women {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0 40px 0; }
+  .indumentaria-men-women .women div {
+    width: 350px;
+    height: 450px;
+    border: 1px grey;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 19px 5px #999999;
+    -webkit-box-shadow: 0px 3px 19px 5px #999999;
+    -moz-box-shadow: 0px 3px 19px 5px #999999;
+    transition-duration: 1s; }
+    .indumentaria-men-women .women div:hover {
+      transform: scale(1.1); }
+
+.contacto .banner-contacto {
+  text-align: center;
+  color: black;
+  padding: 50px 10px 50px 10px;
+  font-size: 35px; }
+
+.contacto div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px; }
+  .contacto div div {
+    flex-direction: column; }
+  .contacto div .ubicacion h2 {
+    text-align: center; }
+
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px 40px 20px;
+  padding: 20px;
+  border: rgba(124, 124, 124, 0.116) solid 2px;
+  background-color: #62caf088; }
+  .contacto-form h2 {
+    text-align: center; }
+
+/*ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite*/
+h1 {
+  font-size: 30px; }
+
+footer {
+  background: white;
+  background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%); }
+  footer .logo-y-redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    footer .logo-y-redes .redes a {
+      text-decoration: none; }
+      footer .logo-y-redes .redes a img {
+        width: 50px;
+        height: 50px;
+        margin: 20px; }
+  footer .end {
+    text-align: center; }
+    footer .end a {
+      color: black;
+      text-decoration: none;
+      margin: 15px; }
+
+/*-----MEDIA QUERY-----*/
+/*-----INDEX----*/
+@media screen and (max-width: 1250px) {
+  .productos .productos-contenedor div {
+    width: 250px;
+    height: 350px; }
+  .enlaces div {
+    width: 450px;
+    height: 350px; } }
+
+@media screen and (max-width: 920px) {
+  .enlaces div {
+    width: 350px;
+    height: 250px; } }
+
+@media screen and (max-width: 880px) {
+  header {
+    flex-direction: column;
+    height: auto; } }
+
+@media screen and (max-width: 815px) {
+  .producto-3 {
+    display: none; } }
+
+@media screen and (max-width: 700px) {
+  footer .logo-y-redes {
+    flex-direction: column; } }
+
+@media screen and (max-width: 539px) {
+  .hero h1 {
+    font-size: 40px; }
+  .producto-3 {
+    display: block; } }
+
+@media screen and (max-width: 505px) {
+  .take-over h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 500px) {
+  header nav div ul {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  header nav div ul li {
+    margin: 5px; }
+  .logo {
+    width: 100%; } }
+
+@media screen and (max-width: 445px) {
+  .productos h2 {
+    font-size: 25px; }
+  .take-over h2 {
+    font-size: 25px; } }
+
+@media screen and (max-width: 400px) {
+  .hero h1 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 360px) {
+  footer .end a {
+    margin: 5px; } }
+
+@media screen and (max-width: 285px) {
+  footer .redes img {
+    margin: 10px; } }
+
+/*-----NOSOTROS-----*/
+@media screen and (max-width: 915px) {
+  .header-nosotros {
+    flex-direction: column;
+    height: auto; } }
+
+@media screen and (max-width: 900px) {
+  .grid-section-nosotros {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 350px; }
+  .como-empezo {
+    grid-column: 1/2; }
+  .como-empezo-img {
+    grid-column: 2/3; }
+  .mision-img {
+    grid-column: 1/2; }
+  .mision {
+    grid-column: 2/3; }
+  .take-over-nosotros {
+    grid-column: 1/2; }
+  .take-over-img {
+    grid-column: 2/3; } }
+
+@media screen and (max-width: 865px) {
+  .grid-section-nosotros {
+    grid-auto-rows: 425px; } }
+
+@media screen and (max-width: 700px) {
+  .grid-section-nosotros {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 6, 300px; }
+  .como-empezo {
+    grid-column: 1/3; }
+  .como-empezo-img {
+    grid-column: 1/3;
+    grid-row: 2/3; }
+  .mision-img {
+    grid-column: 1/3;
+    grid-row: 4/5; }
+  .mision {
+    grid-column: 1/3;
+    grid-row: 3/4; }
+  .take-over-nosotros {
+    grid-column: 1/3;
+    grid-row: 5/6; }
+  .take-over-img {
+    grid-column: 1/3;
+    grid-row: 6/7; } }
+
+@media screen and (max-width: 500px) {
+  .header-nosotros nav div ul {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  .logo {
+    width: 100%; } }
+
+@media screen and (max-width: 350px) {
+  .header-nosotros {
+    margin-bottom: 50px; }
+  .como-empezo-img {
+    margin-top: 50px; } }
+
+/*-----TRAINING-----*/
+@media screen and (max-width: 1250px) {
+  .training .productos-training div {
+    width: 250px;
+    height: 350px; } }
+
+@media screen and (max-width: 1024px) {
+  .training h2 {
+    padding: 50px 10px 50px 10px; } }
+
+/*-----INDUMENTARIA-----*/
+@media screen and (max-width: 425px) {
+  section .banner-men-women {
+    height: 350px; }
+  .nuevo h2 {
+    font-size: 20px;
+    padding: 25px 10px 25px 10px; }
+  .indumentaria-men-women h2 {
+    font-size: 20px;
+    padding: 25px 10px 25px 10px; } }
+
+/*-----CONTACTO-----*/
+@media screen and (max-width: 1024px) {
+  .contacto div div h2 {
+    font-size: 25px;
+    padding: 5px; }
+  .contacto div div h3 {
+    font-size: 20px;
+    padding: 5px; } }
+
+@media screen and (max-width: 780px) {
+  .contacto div {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; } }

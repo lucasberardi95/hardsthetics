@@ -39,7 +39,7 @@ header nav div ul li{
     margin: 15px;
 } 
 
-header a{
+header nav div ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     transition-duration: 1s;
@@ -67,9 +67,7 @@ header a:hover{
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-family: 'Caesar Dressing', cursive;
-
     font-weight: 500;
-    font-style: italic;
     /* text-align: center; */
 }
 
@@ -421,8 +419,13 @@ footer .end a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
+
+.nosotros-form-div h2, p{
+    text-align: center;
+}
+
+
 
 /* --------------------------------------------- MEDIA QUERYS ------------------------------------------------- */
 
@@ -513,6 +516,7 @@ footer .end a{
 .training .strength-banner{
     background-image: url(../img/banner-strength1.jpg);
 }
+
 .training .cardio-banner{
     background-image: url(../img/banner-cardio1.jpg);
 }
@@ -768,16 +772,10 @@ footer .end a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px auto 40px auto;}
-    
+    margin: 40px auto 40px auto;
+}
 
 .contacto-form h2{
     text-align: center;
 }
-
-.icons img{
-    width: 50px;
-    height: 50px;
-}
-
 
