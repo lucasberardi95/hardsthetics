@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
 * {
   margin: 0;
@@ -8,14 +7,6 @@
 /* SIEMPRE COLOCAR EL RESET AL PRINCIPIO DE UN CSS */
 body {
   font-family: 'Caesar Dressing', cursive; }
-
-/*ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite*/
-h1 {
-  font-size: 30px; }
-
-/*ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite*/
-h1 {
-  font-size: 30px; }
 
 header {
   background: white;
@@ -38,10 +29,6 @@ header {
         transition-duration: 1s; }
         header nav ul li a:hover {
           color: rgba(0, 0, 0, 0.39); }
-
-/*ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite*/
-h1 {
-  font-size: 30px; }
 
 .hero {
   background-image: url(../img/fondo-arnold22.jpg);
@@ -306,7 +293,6 @@ section .banner-men-women {
   color: white;
   background-color: black;
   padding: 5px;
-  /* border-radius: ; */
   transition: 1s; }
   .nuevo div div a:hover {
     background-color: rgba(0, 0, 0, 0.39); }
@@ -399,10 +385,6 @@ section .banner-men-women {
   background-color: #62caf088; }
   .contacto-form h2 {
     text-align: center; }
-
-/*ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite*/
-h1 {
-  font-size: 30px; }
 
 footer {
   background: white;
