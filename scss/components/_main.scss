@@ -11,7 +11,7 @@
     background-size: cover;
     text-align: center;
     h1{
-        color: rgb(255, 255, 255);
+        color: $color-principal;
         font-size: 50px;
         font-family: 'Caesar Dressing', cursive;
         font-weight: 500;
@@ -21,8 +21,8 @@
 .productos{
     h2{
     text-align: center;
-    color: rgb(0, 0, 0);
-    background: rgb(255,255,255);
+    color: $color-secundario;
+    background: $color-principal;
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,0.5270483193277311) 50%, rgba(98,203,240,1) 100%);
     padding: 50px 10px 50px 10px;
     font-size: 35px;
@@ -55,12 +55,12 @@
             }
             a{
                 text-decoration: none;
-                color: rgb(255, 255, 255);
-                background-color: rgb(0, 0, 0);
+                color: $color-principal;
+                background-color: $color-secundario;
                 padding: 5px;
                 transition: 1s;
                 &:hover{
-                    background-color: rgba(0, 0, 0, 0.39);
+                    background-color: $color-hover-enlaces;
                 }
             }
         }
@@ -69,10 +69,10 @@
 
 .take-over{
     h2{
-    background: rgb(255,255,255);
+    background: $color-principal;
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,0.5270483193277311) 50%, rgba(98,203,240,1) 100%);
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: $color-secundario;
     padding: 50px 10px 50px 10px;
     font-size: 35px;
     }
@@ -96,7 +96,7 @@
             h3{
                 position: absolute;
                 font-size: 25px;
-                color: rgb(255, 255, 255);
+                color: $color-principal;
                 top: 60%;
                 right: 50%;
                 bottom: 50%;
@@ -192,7 +192,7 @@
 .training{
     h2{
         text-align: center;
-        color: #ffffff;
+        color: $color-principal;
         background-image: url(../img/banner-barras1.jpg);
         background-size: cover;
         background-position: bottom;
@@ -227,12 +227,12 @@
             }
             a{
                 text-decoration: none;
-                color: rgb(255, 255, 255);
-                background-color: rgb(0, 0, 0);
+                color: $color-principal;
+                background-color: $color-secundario;
                 padding: 5px;
                 transition: 1s;
                 &:hover{
-                    background-color: rgba(0, 0, 0, 0.39);
+                    background-color: $color-hover-enlaces;
                 }
             }
         }
@@ -263,7 +263,7 @@ section{
             -webkit-box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
             -moz-box-shadow: 0px 3px 19px 5px rgba(153,153,153,1);
             h2{
-                color: white;
+                color: $color-principal;
                 font-size: 35px;
             }
         }
@@ -288,8 +288,8 @@ section{
 .nuevo{
     h2{
         text-align: center;
-        color: #000000;
-        background: rgb(255,255,255);
+        color: $color-secundario;
+        background: $color-principal;
         background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,0.5270483193277311) 50%, rgba(98,203,240,1) 100%);
         padding: 50px 10px 50px 10px;
         font-size: 35px;
@@ -326,12 +326,12 @@ section{
             }
             a{
                 text-decoration: none;
-                color: rgb(255, 255, 255);
-                background-color: rgb(0, 0, 0);
+                color: $color-principal;
+                background-color: $color-secundario;
                 padding: 5px;
                 transition: 1s;
                 &:hover{
-                    background-color: rgba(0, 0, 0, 0.39);
+                    background-color: $color-hover-enlaces;
                 }
             }
         }
@@ -341,8 +341,8 @@ section{
 .indumentaria-men-women{
     h2{
         text-align: center;
-        color: rgb(0, 0, 0);
-        background: rgb(255,255,255);
+        color: $color-secundario;
+        background: $color-principal;
         background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,0.5270483193277311) 50%, rgba(98,203,240,1) 100%);
         padding: 50px 10px 50px 10px;
         font-size: 35px;
@@ -379,12 +379,12 @@ section{
             }
             a{
                 text-decoration: none;
-                color: rgb(255, 255, 255);
-                background-color: rgb(0, 0, 0);
+                color: $color-principal;
+                background-color: $color-secundario;
                 padding: 5px;
                 transition: 1s;
                 &:hover{
-                    background-color: rgba(0, 0, 0, 0.39);
+                    background-color: $color-hover-enlaces;
                 }
             }
         }
@@ -416,7 +416,7 @@ section{
 .contacto{
     .banner-contacto{
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: $color-secundario;
         padding: 50px 10px 50px 10px;
         font-size: 35px;
     }

@@ -17,10 +17,10 @@ header{
                 margin: 15px;
                 a{
                     text-decoration: none;
-                    color: rgb(0, 0, 0);
+                    color: $color-secundario;
                     transition-duration: 1s;
                     &:hover{
-                        color: rgba(0, 0, 0, 0.39);
+                        color: $color-hover-enlaces;
                     }
                 }
             }

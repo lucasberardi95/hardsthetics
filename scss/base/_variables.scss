@@ -2,8 +2,8 @@
 //! Es como los programadores le dan nombre a un valor para poder reutilizarlo, actualizarlo o simplemtente registrarlo
 //*PALETA DE COLORES*/
 $color-principal:rgb(255, 255, 255);
-$color-secundario:#62cbf0;
-$color-terciario:#7c7c7c;
+$color-secundario: black;
+$color-hover-enlaces: rgba(0, 0, 0, 0.39);
 
 // ej:colores de parrafos, color de fondo, tamaños de las letras, estilos de letras, etc, lo que necesite
 
@@ -11,7 +11,7 @@ $color-terciario:#7c7c7c;
 
 $colores:
 white,
-rgb(43, 161, 230),
+#62cbf0,
 gray,
 black;
 
@@ -21,9 +21,22 @@ $font-size:
 20px,
 30px;
 
-// .cajas.div:nth-child(3) acceder;afectar al tercer div que esta dentro de .cajas
+//acceder;afectar al tercer div que esta dentro de .cajas
+
+// .cajas.div:nth-child(3){
+//     color: blue;
+// } 
+    
 
 // h1{
 //     font-size: nth($font-size, 4);
+//     color: nht($colores, 3)
 // }
 
+//! OPERACION
+// OPERADORES ARIMETICOS + - * / 
+// $ancho:720px;
+
+// img{
+//     width: $ancho / 2;
+// }

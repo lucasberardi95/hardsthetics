@@ -179,7 +179,7 @@ header {
 
 .training h2 {
   text-align: center;
-  color: #ffffff;
+  color: white;
   background-image: url(../img/banner-barras1.jpg);
   background-size: cover;
   background-position: bottom;
@@ -256,7 +256,7 @@ section .banner-men-women {
 
 .nuevo h2 {
   text-align: center;
-  color: #000000;
+  color: black;
   background: white;
   background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%);
   padding: 50px 10px 50px 10px;
