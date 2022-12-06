@@ -29,9 +29,7 @@
     margin-bottom: 40px;
     }
     .productos-contenedor{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    @extend %flex-para-tarjetas;
     margin: 40px 0 40px 0;
         div{
             width: 350px;
@@ -129,10 +127,7 @@
         grid-column: 1/2;
         grid-row: 1/2;
         padding: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-para-grids-nosotros;
     }
     .como-empezo-img{
         grid-column: 2/4;
@@ -146,10 +141,7 @@
         grid-column: 3/4;
         grid-row: 2/3;
         padding: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-para-grids-nosotros;
     }
     .take-over-img{
         grid-column: 2/4;
@@ -159,10 +151,7 @@
         grid-column: 1/2;
         grid-row: 3/4;
         padding: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-para-grids-nosotros;
     }
 }
 
@@ -174,10 +163,7 @@
         padding: 15px;
         margin-top: 50px;
         margin-bottom: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-para-grids-nosotros;
         h2{
             text-align: center;
         }
@@ -201,9 +187,7 @@
         margin-bottom: 40px;
     }
     .productos-training{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        @extend %flex-para-tarjetas;
         margin: 40px 0 40px 0;
         div{
             width: 350px;
@@ -296,9 +280,7 @@ section{
         margin-bottom: 40px;
     }
     .productos-nuevos{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        @extend %flex-para-tarjetas;
         margin: 40px 0 40px 0;
         div{
             width: 250px;
@@ -349,9 +331,7 @@ section{
         margin-bottom: 40px;
     }
     .men{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        @extend %flex-para-tarjetas;
         margin: 40px 0 40px 0;
         div{
             width: 350px;
@@ -390,9 +370,7 @@ section{
         }
     }
     .women{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        @extend %flex-para-tarjetas;
         margin: 40px 0 40px 0;
         div{
             width: 350px;
@@ -435,10 +413,7 @@ section{
 }
 
 .contacto-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-para-grids-nosotros;
     margin: 40px 20px 40px 20px;
     padding: 20px;
     border: rgba(124, 124, 124, 0.116) solid 2px;

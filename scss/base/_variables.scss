@@ -15,3 +15,21 @@ $font-size:
 25px,
 35px,
 50px;
+
+//! EXTENDS : me permite traer un bloque de código (grupo de propiedades) para poder incorporarlo en mi proyecto
+// % = placeholder
+// con este simbolo llamamos a los extends
+
+%flex-para-grids-nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-para-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+

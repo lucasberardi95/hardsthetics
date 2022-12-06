@@ -8,6 +8,28 @@
 body {
   font-family: 'Caesar Dressing', cursive; }
 
+.grid-section-nosotros .como-empezo, .grid-section-nosotros .mision, .grid-section-nosotros .take-over-nosotros, .nosotros-form .nosotros-form-div, .contacto-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.productos .productos-contenedor, .training .productos-training, .nuevo .productos-nuevos, .indumentaria-men-women .men, .indumentaria-men-women .women {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.grid-section-nosotros .como-empezo, .grid-section-nosotros .mision, .grid-section-nosotros .take-over-nosotros, .nosotros-form .nosotros-form-div, .contacto-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.productos .productos-contenedor, .training .productos-training, .nuevo .productos-nuevos, .indumentaria-men-women .men, .indumentaria-men-women .women {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
 header {
   background: white;
   background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%);
@@ -29,6 +51,17 @@ header {
         transition-duration: 1s; }
         header nav ul li a:hover {
           color: rgba(0, 0, 0, 0.39); }
+
+.grid-section-nosotros .como-empezo, .grid-section-nosotros .mision, .grid-section-nosotros .take-over-nosotros, .nosotros-form .nosotros-form-div, .contacto-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.productos .productos-contenedor, .training .productos-training, .nuevo .productos-nuevos, .indumentaria-men-women .men, .indumentaria-men-women .women {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
 
 .hero {
   background-image: url(../img/fondo-arnold22.jpg);
@@ -54,9 +87,6 @@ header {
   margin-bottom: 40px; }
 
 .productos .productos-contenedor {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   margin: 40px 0 40px 0; }
   .productos .productos-contenedor div {
     width: 350px;
@@ -130,11 +160,7 @@ header {
   .grid-section-nosotros .como-empezo {
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    padding: 15px; }
   .grid-section-nosotros .como-empezo-img {
     grid-column: 2/4;
     grid-row: 1/2; }
@@ -144,22 +170,14 @@ header {
   .grid-section-nosotros .mision {
     grid-column: 3/4;
     grid-row: 2/3;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    padding: 15px; }
   .grid-section-nosotros .take-over-img {
     grid-column: 2/4;
     grid-row: 3/4; }
   .grid-section-nosotros .take-over-nosotros {
     grid-column: 1/2;
     grid-row: 3/4;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    padding: 15px; }
 
 .nosotros-form .nosotros-form-div {
   grid-column: 1/4;
@@ -167,11 +185,7 @@ header {
   border: color black solid;
   padding: 15px;
   margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  margin-bottom: 50px; }
   .nosotros-form .nosotros-form-div h2 {
     text-align: center; }
   .nosotros-form .nosotros-form-div p {
@@ -188,9 +202,6 @@ header {
   margin-bottom: 40px; }
 
 .training .productos-training {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   margin: 40px 0 40px 0; }
   .training .productos-training div {
     width: 350px;
@@ -264,9 +275,6 @@ section .banner-men-women {
   margin-bottom: 40px; }
 
 .nuevo .productos-nuevos {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   margin: 40px 0 40px 0; }
   .nuevo .productos-nuevos div {
     width: 250px;
@@ -307,9 +315,6 @@ section .banner-men-women {
   margin-bottom: 40px; }
 
 .indumentaria-men-women .men {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   margin: 40px 0 40px 0; }
   .indumentaria-men-women .men div {
     width: 350px;
@@ -341,9 +346,6 @@ section .banner-men-women {
     background-color: rgba(0, 0, 0, 0.39); }
 
 .indumentaria-men-women .women {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   margin: 40px 0 40px 0; }
   .indumentaria-men-women .women div {
     width: 350px;
@@ -375,16 +377,23 @@ section .banner-men-women {
     text-align: center; }
 
 .contacto-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 40px 20px 40px 20px;
   padding: 20px;
   border: rgba(124, 124, 124, 0.116) solid 2px;
   background-color: #62caf088; }
   .contacto-form h2 {
     text-align: center; }
+
+.grid-section-nosotros .como-empezo, .grid-section-nosotros .mision, .grid-section-nosotros .take-over-nosotros, .nosotros-form .nosotros-form-div, .contacto-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.productos .productos-contenedor, .training .productos-training, .nuevo .productos-nuevos, .indumentaria-men-women .men, .indumentaria-men-women .women {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
 
 footer {
   background: white;
