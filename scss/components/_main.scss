@@ -43,7 +43,7 @@
                 transform: scale(1.1) ;
             }
             img{
-                @include tamaños (100px, 75px);
+                @include tamaños (100%, 75%);
             }
             h3{
                 margin-bottom: 15px;

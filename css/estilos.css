@@ -101,8 +101,8 @@ header {
     .productos .productos-contenedor div:hover {
       transform: scale(1.1); }
     .productos .productos-contenedor div img {
-      width: 100px;
-      height: 75px; }
+      width: 100%;
+      height: 75%; }
     .productos .productos-contenedor div h3 {
       margin-bottom: 15px; }
     .productos .productos-contenedor div a {
