@@ -33,3 +33,10 @@ $font-size:
     flex-wrap: wrap;
 }
 
+//! MIXINS : es como un extend pero mas flexible, podes ir cambiando los valores de las propiedades 
+
+@mixin tamaños($width, $height){
+    width: $width;
+    height: $height;
+}
+
