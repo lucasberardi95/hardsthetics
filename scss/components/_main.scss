@@ -3,7 +3,7 @@
 // MAIN INDEX
 
 .hero{
-    background-image: url(../img/fondo-arnold22.jpg);
+    background-image: url(../img/fondo-hero.jpg);
     @include tamaños (100%, 115vh);
     background-position: right;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
     justify-content: center;
     margin: 40px 0 40px 0;
     div{
-        @include tamaños (606px, 500px);
+        @include tamaños (600px, 500px);
         margin: 5px;
         position: relative;
         a{
