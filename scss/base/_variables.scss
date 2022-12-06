@@ -9,34 +9,9 @@ $color-hover-enlaces: rgba(0, 0, 0, 0.39);
 
 //! LISTAS : variable que me va a ocupar mas de un valor en su interior
 
-$colores:
-white,
-#62cbf0,
-gray,
-black;
-
 $font-size:
-12px,
-16px,
-20px,
-30px;
-
-//acceder;afectar al tercer div que esta dentro de .cajas
-
-// .cajas.div:nth-child(3){
-//     color: blue;
-// } 
-    
-
-// h1{
-//     font-size: nth($font-size, 4);
-//     color: nht($colores, 3)
-// }
-
-//! OPERACION
-// OPERADORES ARIMETICOS + - * / 
-// $ancho:720px;
-
-// img{
-//     width: $ancho / 2;
-// }
+10px,
+15px,
+25px,
+35px,
+50px;
