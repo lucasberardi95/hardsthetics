@@ -175,6 +175,13 @@
 
 /*-----INDUMENTARIA-----*/
 
+@media screen and (max-width:1110px){
+    .nuevo .productos-nuevos div{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
 @media screen and (max-width:425px){
     section .banner-men-women{
         height: 350px;
