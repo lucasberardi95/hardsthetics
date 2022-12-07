@@ -118,7 +118,7 @@
     .take-over-img{
         grid-column: 2/3;
     }
-}    
+}
 
 @media screen and (max-width:865px){
     .grid-section-nosotros{
@@ -158,15 +158,19 @@
 
 @media screen and (max-width:500px){
     .header-nosotros nav div ul{
-            flex-direction: column;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        .logo{
-            width: 100%;
-        }
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
+    .header-nosotros nav div ul li{
+        margin: 5px;
+    }
+    .logo{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:350px){
     .header-nosotros{
         margin-bottom: 50px;

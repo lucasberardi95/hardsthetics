@@ -536,6 +536,8 @@ footer {
     margin: 0;
     padding: 0;
     text-align: center; }
+  .header-nosotros nav div ul li {
+    margin: 5px; }
   .logo {
     width: 100%; } }
 
