@@ -19,17 +19,6 @@ body {
   justify-content: space-around;
   flex-wrap: wrap; }
 
-.grid-section-nosotros .como-empezo, .grid-section-nosotros .mision, .grid-section-nosotros .take-over-nosotros, .nosotros-form .nosotros-form-div, .contacto-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.productos .productos-contenedor, .training .productos-training, .nuevo .productos-nuevos, .indumentaria-men-women .men, .indumentaria-men-women .women {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
-
 header {
   background: white;
   background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%);
@@ -51,17 +40,6 @@ header {
         transition-duration: 1s; }
         header nav ul li a:hover {
           color: rgba(0, 0, 0, 0.39); }
-
-.grid-section-nosotros .como-empezo, .grid-section-nosotros .mision, .grid-section-nosotros .take-over-nosotros, .nosotros-form .nosotros-form-div, .contacto-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.productos .productos-contenedor, .training .productos-training, .nuevo .productos-nuevos, .indumentaria-men-women .men, .indumentaria-men-women .women {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
 
 .hero {
   background-image: url(../img/fondo-hero.jpg);
@@ -385,17 +363,6 @@ section .banner-men-women {
   .contacto-form h2 {
     text-align: center; }
 
-.grid-section-nosotros .como-empezo, .grid-section-nosotros .mision, .grid-section-nosotros .take-over-nosotros, .nosotros-form .nosotros-form-div, .contacto-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.productos .productos-contenedor, .training .productos-training, .nuevo .productos-nuevos, .indumentaria-men-women .men, .indumentaria-men-women .women {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
-
 footer {
   background: white;
   background: linear-gradient(90deg, white 0%, rgba(124, 124, 124, 0.527048) 50%, #62cbf0 100%); }
@@ -495,7 +462,9 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 500px 500px 500px;
-    grid-template-areas: "empezo img1" "img2 mision" "take img3"; }
+    grid-template-areas: "empezo img1"
+    "img2 mision"
+    "take img3"; }
     .grid-section-nosotros .como-empezo {
       grid-area: empezo; }
     .grid-section-nosotros .como-empezo-img {
@@ -514,7 +483,12 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "empezo"  "img1" "mision" "img2" "take"  "img3"; }
+    grid-template-areas: "empezo" 
+    "img1"
+    "mision"
+    "img2"
+    "take" 
+    "img3"; }
     .grid-section-nosotros .como-empezo {
       grid-area: empezo; }
     .grid-section-nosotros .como-empezo-img {
